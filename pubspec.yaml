@@ -51,7 +51,6 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - assets/index.html
     - assets/image.png
     - assets/script.js
     - assets/styles.css
