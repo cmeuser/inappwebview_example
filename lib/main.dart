@@ -43,8 +43,8 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: InAppWebView(
-        initialUrlRequest: URLRequest(
-            url: Uri.parse('http://localhost:8080/assets/index.html')),
+        // initialUrlRequest: URLRequest(
+        //     url: Uri.parse('http://localhost:8080/assets/index.html')),
         onWebViewCreated: (InAppWebViewController controller) {
           webView = controller;
           webView.loadData(data: _loadFromString(), baseUrl: Uri.parse('http://localhost:8080/assets/'));
